@@ -11,7 +11,7 @@ def capture_frame() -> Image.Image:
     Capture one frame via AVFoundation/FFmpeg and return a PIL RGB image.
     """
     container = av.open(
-        "0",
+        "1", # change this if you need to access the iphone camera
         format="avfoundation",
         options={
             "framerate": "30",

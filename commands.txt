@@ -63,3 +63,6 @@ pip freeze > requirements.txt
 # Run your Python script (replace script.py with your actual script name)
 python src/main.py
 
+# the latest version of the code is on this script
+python ffmpeg.py
+

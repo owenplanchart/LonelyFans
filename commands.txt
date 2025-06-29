@@ -1,0 +1,65 @@
+# Git Commands
+
+# Check the repository status
+git status
+
+# Change to the parent directory
+cd ..
+
+# Check repository status again
+git status
+
+# Stage all changes for commit
+git add .
+
+# Commit changes with a message
+git commit -m "Your commit message here"
+
+# Add and commit changes with a message
+git commit -am "Your commit message"
+
+
+# Push changes to the main branch on the remote repository
+git push origin main
+
+# Set the upstream branch (if needed for the first push)
+git push -u origin main
+
+# Undo the last commit but keep the changes staged (soft reset)
+git reset --soft HEAD~1
+
+# Undo the last commit and unstage the changes (mixed reset)
+git reset HEAD~1
+
+#Fetch the latest state from origin
+git fetch origin
+# Reset your local main to the remote’s main
+git reset --hard origin/main
+
+#drop all uncommitted work and stay on the same commit
+git reset --hard HEAD
+
+
+# Pull the latest changes from the remote repository
+git pull
+
+# Python Commands
+
+# Create a virtual environment (replace 'myEnv' with your preferred environment name)
+python3 -m venv myEnv2
+
+# Activate the virtual environment on macOS/Linux:
+source myEnv/bin/activate
+
+# Activate the virtual environment on Windows:
+myEnv2\Scripts\activate
+
+# Install all dependencies from requirements.txt
+pip install -r requirements.txt
+
+# Freeze installed packages into requirements.txt
+pip freeze > requirements.txt
+
+# Run your Python script (replace script.py with your actual script name)
+python src/main.py
+

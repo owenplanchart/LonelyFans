@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>App needs camera access to control the torch.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Allow external devices on this network to trigger the torch flash.</string>
+	<key>NSCameraUseContinuityCameraDeviceType</key>
+	<true/>
+	<key>AVCaptureDeviceTypeContinuityCamera</key>
+	<true/>
+</dict>
+</plist>

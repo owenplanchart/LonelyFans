@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A1322742E1199FF003353CC /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 5A1322732E1199FF003353CC /* Swifter */; };
+		5A1322762E1199FF003353CC /* Example in Frameworks */ = {isa = PBXBuildFile; productRef = 5A1322752E1199FF003353CC /* Example */; };
+		5A4D28192E1192A800F4DEDF /* TorchFlasherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D28182E1192A800F4DEDF /* TorchFlasherAppApp.swift */; };
+		5A4D281D2E1192A800F4DEDF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D281C2E1192A800F4DEDF /* Item.swift */; };
+		5A4D281F2E1192A900F4DEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4D281E2E1192A900F4DEDF /* Assets.xcassets */; };
+		5A4D28232E1192A900F4DEDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4D28222E1192A900F4DEDF /* Preview Assets.xcassets */; };
+		5A4D282D2E1192A900F4DEDF /* TorchFlasherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D282C2E1192A900F4DEDF /* TorchFlasherAppTests.swift */; };
+		5A4D28372E1192A900F4DEDF /* TorchFlasherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D28362E1192A900F4DEDF /* TorchFlasherAppUITests.swift */; };
+		5A4D28392E1192A900F4DEDF /* TorchFlasherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D28382E1192A900F4DEDF /* TorchFlasherAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4D28292E1192A900F4DEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4D280D2E1192A800F4DEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4D28142E1192A800F4DEDF;
+			remoteInfo = TorchFlasherApp;
+		};
+		5A4D28332E1192A900F4DEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4D280D2E1192A800F4DEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4D28142E1192A800F4DEDF;
+			remoteInfo = TorchFlasherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A4D28152E1192A800F4DEDF /* TorchFlasherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorchFlasherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4D28182E1192A800F4DEDF /* TorchFlasherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchFlasherAppApp.swift; sourceTree = "<group>"; };
+		5A4D281C2E1192A800F4DEDF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5A4D281E2E1192A900F4DEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4D28202E1192A900F4DEDF /* TorchFlasherApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TorchFlasherApp.entitlements; sourceTree = "<group>"; };
+		5A4D28222E1192A900F4DEDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A4D28282E1192A900F4DEDF /* TorchFlasherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchFlasherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4D282C2E1192A900F4DEDF /* TorchFlasherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchFlasherAppTests.swift; sourceTree = "<group>"; };
+		5A4D28322E1192A900F4DEDF /* TorchFlasherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchFlasherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4D28362E1192A900F4DEDF /* TorchFlasherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchFlasherAppUITests.swift; sourceTree = "<group>"; };
+		5A4D28382E1192A900F4DEDF /* TorchFlasherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchFlasherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AFC1BCB2E11E098007BC3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4D28122E1192A800F4DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1322742E1199FF003353CC /* Swifter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D28252E1192A900F4DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1322762E1199FF003353CC /* Example in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D282F2E1192A900F4DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4D280C2E1192A800F4DEDF = {
+			isa = PBXGroup;
+			children = (
+				5A4D28172E1192A800F4DEDF /* TorchFlasherApp */,
+				5A4D282B2E1192A900F4DEDF /* TorchFlasherAppTests */,
+				5A4D28352E1192A900F4DEDF /* TorchFlasherAppUITests */,
+				5A4D28162E1192A800F4DEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4D28162E1192A800F4DEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D28152E1192A800F4DEDF /* TorchFlasherApp.app */,
+				5A4D28282E1192A900F4DEDF /* TorchFlasherAppTests.xctest */,
+				5A4D28322E1192A900F4DEDF /* TorchFlasherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4D28172E1192A800F4DEDF /* TorchFlasherApp */ = {
+			isa = PBXGroup;
+			children = (
+				5AFC1BCB2E11E098007BC3D6 /* Info.plist */,
+				5A4D28182E1192A800F4DEDF /* TorchFlasherAppApp.swift */,
+				5A4D281C2E1192A800F4DEDF /* Item.swift */,
+				5A4D281E2E1192A900F4DEDF /* Assets.xcassets */,
+				5A4D28202E1192A900F4DEDF /* TorchFlasherApp.entitlements */,
+				5A4D28212E1192A900F4DEDF /* Preview Content */,
+			);
+			path = TorchFlasherApp;
+			sourceTree = "<group>";
+		};
+		5A4D28212E1192A900F4DEDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D28222E1192A900F4DEDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A4D282B2E1192A900F4DEDF /* TorchFlasherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D282C2E1192A900F4DEDF /* TorchFlasherAppTests.swift */,
+			);
+			path = TorchFlasherAppTests;
+			sourceTree = "<group>";
+		};
+		5A4D28352E1192A900F4DEDF /* TorchFlasherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4D28362E1192A900F4DEDF /* TorchFlasherAppUITests.swift */,
+				5A4D28382E1192A900F4DEDF /* TorchFlasherAppUITestsLaunchTests.swift */,
+			);
+			path = TorchFlasherAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4D28142E1192A800F4DEDF /* TorchFlasherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4D283C2E1192A900F4DEDF /* Build configuration list for PBXNativeTarget "TorchFlasherApp" */;
+			buildPhases = (
+				5A4D28112E1192A800F4DEDF /* Sources */,
+				5A4D28122E1192A800F4DEDF /* Frameworks */,
+				5A4D28132E1192A800F4DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorchFlasherApp;
+			packageProductDependencies = (
+				5A1322732E1199FF003353CC /* Swifter */,
+			);
+			productName = TorchFlasherApp;
+			productReference = 5A4D28152E1192A800F4DEDF /* TorchFlasherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4D28272E1192A900F4DEDF /* TorchFlasherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4D283F2E1192A900F4DEDF /* Build configuration list for PBXNativeTarget "TorchFlasherAppTests" */;
+			buildPhases = (
+				5A4D28242E1192A900F4DEDF /* Sources */,
+				5A4D28252E1192A900F4DEDF /* Frameworks */,
+				5A4D28262E1192A900F4DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4D282A2E1192A900F4DEDF /* PBXTargetDependency */,
+			);
+			name = TorchFlasherAppTests;
+			packageProductDependencies = (
+				5A1322752E1199FF003353CC /* Example */,
+			);
+			productName = TorchFlasherAppTests;
+			productReference = 5A4D28282E1192A900F4DEDF /* TorchFlasherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A4D28312E1192A900F4DEDF /* TorchFlasherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4D28422E1192A900F4DEDF /* Build configuration list for PBXNativeTarget "TorchFlasherAppUITests" */;
+			buildPhases = (
+				5A4D282E2E1192A900F4DEDF /* Sources */,
+				5A4D282F2E1192A900F4DEDF /* Frameworks */,
+				5A4D28302E1192A900F4DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4D28342E1192A900F4DEDF /* PBXTargetDependency */,
+			);
+			name = TorchFlasherAppUITests;
+			productName = TorchFlasherAppUITests;
+			productReference = 5A4D28322E1192A900F4DEDF /* TorchFlasherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4D280D2E1192A800F4DEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5A4D28142E1192A800F4DEDF = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5A4D28272E1192A900F4DEDF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5A4D28142E1192A800F4DEDF;
+					};
+					5A4D28312E1192A900F4DEDF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5A4D28142E1192A800F4DEDF;
+					};
+				};
+			};
+			buildConfigurationList = 5A4D28102E1192A800F4DEDF /* Build configuration list for PBXProject "TorchFlasherApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4D280C2E1192A800F4DEDF;
+			packageReferences = (
+				5A1322722E1197DF003353CC /* XCRemoteSwiftPackageReference "swifter" */,
+			);
+			productRefGroup = 5A4D28162E1192A800F4DEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4D28142E1192A800F4DEDF /* TorchFlasherApp */,
+				5A4D28272E1192A900F4DEDF /* TorchFlasherAppTests */,
+				5A4D28312E1192A900F4DEDF /* TorchFlasherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4D28132E1192A800F4DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4D28232E1192A900F4DEDF /* Preview Assets.xcassets in Resources */,
+				5A4D281F2E1192A900F4DEDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D28262E1192A900F4DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D28302E1192A900F4DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4D28112E1192A800F4DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4D281D2E1192A800F4DEDF /* Item.swift in Sources */,
+				5A4D28192E1192A800F4DEDF /* TorchFlasherAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D28242E1192A900F4DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4D282D2E1192A900F4DEDF /* TorchFlasherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4D282E2E1192A900F4DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4D28372E1192A900F4DEDF /* TorchFlasherAppUITests.swift in Sources */,
+				5A4D28392E1192A900F4DEDF /* TorchFlasherAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4D282A2E1192A900F4DEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4D28142E1192A800F4DEDF /* TorchFlasherApp */;
+			targetProxy = 5A4D28292E1192A900F4DEDF /* PBXContainerItemProxy */;
+		};
+		5A4D28342E1192A900F4DEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4D28142E1192A800F4DEDF /* TorchFlasherApp */;
+			targetProxy = 5A4D28332E1192A900F4DEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A4D283A2E1192A900F4DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A4D283B2E1192A900F4DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5A4D283D2E1192A900F4DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TorchFlasherApp/TorchFlasherApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TorchFlasherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R7U8S47DSN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TorchFlasherApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs camera access to control the torch and take photos.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allow external devices on this network to trigger the torch flash.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owen.TorchFlasherApp-.";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4D283E2E1192A900F4DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TorchFlasherApp/TorchFlasherApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TorchFlasherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R7U8S47DSN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TorchFlasherApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App needs camera access to control the torch and take photos.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allow external devices on this network to trigger the torch flash.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owen.TorchFlasherApp-.";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A4D28402E1192A900F4DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7U8S47DSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.TorchFlasherApp-.--com.yourname.TorchFlasherApp-.--com.owen.TorchFlasherApp.TorchFlasherAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorchFlasherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TorchFlasherApp";
+			};
+			name = Debug;
+		};
+		5A4D28412E1192A900F4DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7U8S47DSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.TorchFlasherApp-.--com.yourname.TorchFlasherApp-.--com.owen.TorchFlasherApp.TorchFlasherAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorchFlasherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TorchFlasherApp";
+			};
+			name = Release;
+		};
+		5A4D28432E1192A900F4DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7U8S47DSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.TorchFlasherApp-.--com.yourname.TorchFlasherApp-.--com.owen.TorchFlasherApp.TorchFlasherAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TorchFlasherApp;
+			};
+			name = Debug;
+		};
+		5A4D28442E1192A900F4DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7U8S47DSN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.TorchFlasherApp-.--com.yourname.TorchFlasherApp-.--com.owen.TorchFlasherApp.TorchFlasherAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TorchFlasherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4D28102E1192A800F4DEDF /* Build configuration list for PBXProject "TorchFlasherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D283A2E1192A900F4DEDF /* Debug */,
+				5A4D283B2E1192A900F4DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4D283C2E1192A900F4DEDF /* Build configuration list for PBXNativeTarget "TorchFlasherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D283D2E1192A900F4DEDF /* Debug */,
+				5A4D283E2E1192A900F4DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4D283F2E1192A900F4DEDF /* Build configuration list for PBXNativeTarget "TorchFlasherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D28402E1192A900F4DEDF /* Debug */,
+				5A4D28412E1192A900F4DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4D28422E1192A900F4DEDF /* Build configuration list for PBXNativeTarget "TorchFlasherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4D28432E1192A900F4DEDF /* Debug */,
+				5A4D28442E1192A900F4DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A1322722E1197DF003353CC /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A1322732E1199FF003353CC /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A1322722E1197DF003353CC /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+		5A1322752E1199FF003353CC /* Example */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A1322722E1197DF003353CC /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Example;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5A4D280D2E1192A800F4DEDF /* Project object */;
+}

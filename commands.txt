@@ -66,3 +66,6 @@ python src/main.py
 # the latest version of the code is on this script
 python ffmpeg.py
 
+# create a readme file
+touch README.md
+

@@ -1,4 +1,5 @@
 To do:
+Remember that the xcode file is inside the project folder which is in the Python folder.
 1.Store all fan images in a folder
 2.Find a way to change the prompts slightly 
 3.Let's try a way to get the api images from open AI too just make a separate script

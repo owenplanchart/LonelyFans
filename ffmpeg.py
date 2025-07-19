@@ -75,7 +75,7 @@ def main():
     print("[+] Saved original → outputs/0_original.png")
 
     # 4) Set up diffusion
-    prompt = "make it look like an electric fan"
+    prompt = "make it look like an electric fan with an exotic background"
     num_steps = 50
     inspect_steps = {int(num_steps * f) for f in (0.25, 0.5, 0.75)}
     captured = {}

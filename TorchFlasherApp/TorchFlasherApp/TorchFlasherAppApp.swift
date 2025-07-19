@@ -1,6 +1,8 @@
 import SwiftUI
 import AVFoundation
 import Swifter
+import AudioToolbox
+
 
 @main
 struct TorchFlasherApp: App {
@@ -21,6 +23,11 @@ class PhotoDelegate: NSObject, AVCapturePhotoCaptureDelegate {
     private let cb: (Data?)->Void
     init(_ cb: @escaping (Data?)->Void) {
         self.cb = cb
+    }
+    func photoOutput(_ output: AVCapturePhotoOutput,
+                      willCapturePhotoFor resolvedSettings: AVCaptureResolvedPhotoSettings) {
+         // Play the native shutter sound:
+         AudioServicesPlaySystemSound(1108)
     }
 
     func photoOutput(
